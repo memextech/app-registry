@@ -1,6 +1,6 @@
-# Fleur App Registry
+# Memex App Registry
 
-This repository serves as the official app registry for [Fleur](https://github.com/fleuristes/fleur), an open-source [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) GUI client. It contains a curated list of MCP applications that can be integrated with Fleur to extend its capabilities.
+This repository serves as the official app registry for [Memex](https://memex.tech), an AI engineering assistant that supports [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) applications. It contains a curated list of MCP applications that can be integrated with Memex to extend its capabilities.
 
 ## What is MCP?
 
@@ -125,7 +125,7 @@ You can include environment variables in your `args` array using the `${VARIABLE
 ]
 ```
 
-When the MCP is installed, Fleur will automatically replace these variables with their corresponding values from the user's configuration.
+When the MCP is installed, Memex will automatically replace these variables with their corresponding values from the user's configuration.
 
 #### Environment Variable Features
 
@@ -165,4 +165,4 @@ This repository is licensed under the Apache License 2.0 - see the LICENSE file 
 
 ## Support
 
-For questions or issues related to the Fleur App Registry, please open an issue in this repository.
+For questions or issues related to the Memex App Registry, please open an issue in this repository.

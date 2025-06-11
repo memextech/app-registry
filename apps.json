@@ -5,8 +5,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/fetch-light.svg",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/fetch-dark.svg"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/fetch-light.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/fetch-dark.svg"
       }
     },
     "category": "Utilities",
@@ -40,8 +40,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/memory-light.svg",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/memory-dark.svg"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/memory-light.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/memory-dark.svg"
       }
     },
     "category": "Utilities",
@@ -76,8 +76,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/github-light.svg",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/github-dark.svg"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/github-light.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/github-dark.svg"
       }
     },
     "category": "Utilities",
@@ -126,8 +126,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/linear-dark.svg",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/linear-light.svg"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/linear-dark.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/linear-light.svg"
       }
     },
     "category": "Productivity",
@@ -174,8 +174,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/slack.svg",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/slack.svg"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/slack.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/slack.svg"
       }
     },
     "category": "Communication",
@@ -225,8 +225,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/obsidian.svg",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/obsidian.svg"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/obsidian.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/obsidian.svg"
       }
     },
     "category": "Productivity",
@@ -272,8 +272,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/rember.png",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/rember.png"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/rember.png",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/rember.png"
       }
     },
     "category": "Flashcards",
@@ -321,8 +321,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/browser-light.svg",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/browser-dark.svg"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/browser-light.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/browser-dark.svg"
       }
     },
     "category": "Utilities",
@@ -359,8 +359,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/yc.svg",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/yc.svg"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/yc.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/yc.svg"
       }
     },
     "category": "Social",
@@ -393,8 +393,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/stripe.svg",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/stripe.svg"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/stripe.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/stripe.svg"
       }
     },
     "category": "Finance",
@@ -445,8 +445,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/brave.svg",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/brave.svg"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/brave.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/brave.svg"
       }
     },
     "category": "Search",
@@ -483,8 +483,8 @@
     "icon": {
       "type": "url",
       "url": {
-        "light": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/chromium.svg",
-        "dark": "https://raw.githubusercontent.com/fleuristes/app-registry/refs/heads/main/assets/chromium.svg"
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/chromium.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/chromium.svg"
       }
     },
     "category": "Utilities",
