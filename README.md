@@ -2,6 +2,8 @@
 
 This repository serves as the official app registry for [Memex](https://memex.tech), an AI engineering assistant that supports [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) applications. It contains a curated list of MCP applications that can be integrated with Memex to extend its capabilities.
 
+> **Note:** This repository is forked from the original [fleuristes/app-registry](https://github.com/fleuristes/app-registry).
+
 ## What is MCP?
 
 Model Context Protocol (MCP) is a standardized way for language models to interact with external tools and data sources. MCPs enable models to:
