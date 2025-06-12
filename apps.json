@@ -375,6 +375,66 @@
     ]
   },
   {
+    "name": "Neon",
+    "description": "This app enables Claude to interact with your Neon Postgres databases using natural language commands for database management, migrations, and queries.",
+    "icon": {
+      "type": "url",
+      "url": {
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/neon-light.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/neon-dark.svg"
+      }
+    },
+    "category": "Development",
+    "price": "Free",
+    "developer": "Neon",
+    "sourceUrl": "https://github.com/neondatabase-labs/mcp-server-neon",
+    "config": {
+      "mcpKey": "neon",
+      "runtime": "npx",
+      "args": [
+        "-y",
+        "@neondatabase/mcp-server-neon",
+        "start"
+      ]
+    },
+    "features": [
+      {
+        "name": "Natural language database management",
+        "description": "Create and manage Neon projects, branches, and databases using conversational commands",
+        "prompt": "Create a new Postgres database called 'my-app' and set up a users table with id, name, and email columns"
+      },
+      {
+        "name": "Safe database migrations",
+        "description": "Perform database schema changes using Neon's branching feature for safe migrations",
+        "prompt": "Run a migration to add a 'created_at' timestamp column to the users table in my project"
+      },
+      {
+        "name": "SQL query execution",
+        "description": "Execute SQL queries and transactions against your Neon databases",
+        "prompt": "Show me all users from my database and create a summary of user activity"
+      },
+      {
+        "name": "Performance optimization",
+        "description": "Analyze and optimize database queries with execution plans and performance tuning",
+        "prompt": "Analyze the performance of my user queries and suggest optimizations"
+      }
+    ],
+    "setup": [
+      {
+        "label": "Create a Neon API Key",
+        "value": "Generate a Neon API key from your Neon Console: [https://console.neon.tech/app/settings/api-keys](https://console.neon.tech/app/settings/api-keys)",
+        "type": "text"
+      },
+      {
+        "label": "Neon API Key",
+        "type": "input",
+        "placeholder": "Enter your Neon API key",
+        "value": "Enter your Neon API key",
+        "key": "NEON_API_KEY"
+      }
+    ]
+  },
+  {
     "name": "Browser",
     "description": "This is a browser app that allows Claude to navigate to any website, take screenshots, and interact with the page.",
     "icon": {
