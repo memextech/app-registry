@@ -83,7 +83,7 @@
     "category": "Utilities",
     "price": "Free",
     "developer": "MCP",
-    "sourceUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+    "sourceUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github",
     "config": {
       "mcpKey": "github",
       "runtime": "npx",
@@ -170,7 +170,7 @@
   {
     "name": "Slack",
     "description": "Allows Claude to interact with Slack",
-    "sourceUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
+    "sourceUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
     "icon": {
       "type": "url",
       "url": {
@@ -440,7 +440,7 @@
     "category": "Utilities",
     "price": "Free",
     "developer": "Google LLC",
-    "sourceUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer",
+    "sourceUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer",
     "config": {
       "mcpKey": "puppeteer",
       "runtime": "npx",
@@ -512,7 +512,7 @@
     "category": "Finance",
     "price": "Free",
     "developer": "Stripe",
-    "sourceUrl": "https://github.com/stripe/stripe-mcp",
+    "sourceUrl": "https://github.com/stripe/agent-toolkit/tree/main/modelcontextprotocol",
     "config": {
       "mcpKey": "stripe",
       "runtime": "npx",
@@ -553,7 +553,7 @@
   {
     "name": "Brave Search",
     "description": "This app allows Claude to search the web using Brave Search.",
-    "sourceUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search",
+    "sourceUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search",
     "icon": {
       "type": "url",
       "url": {
