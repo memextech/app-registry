@@ -316,6 +316,65 @@
     ]
   },
   {
+    "name": "Netlify",
+    "description": "This app enables Claude to create, build, deploy, and manage your Netlify websites using natural language prompts through the Netlify API and CLI.",
+    "icon": {
+      "type": "url",
+      "url": {
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/netlify-light.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/netlify-dark.svg"
+      }
+    },
+    "category": "Development",
+    "price": "Free",
+    "developer": "Netlify",
+    "sourceUrl": "https://github.com/netlify/netlify-mcp",
+    "config": {
+      "mcpKey": "netlify",
+      "runtime": "npx",
+      "args": [
+        "-y",
+        "@netlify/mcp"
+      ]
+    },
+    "features": [
+      {
+        "name": "Create and deploy sites",
+        "description": "Create new Netlify projects and deploy them directly from your code",
+        "prompt": "Create a new Netlify site from my GitHub repository"
+      },
+      {
+        "name": "Manage environment variables",
+        "description": "Create and manage environment variables and secrets for your Netlify sites",
+        "prompt": "Set environment variables for my Netlify site"
+      },
+      {
+        "name": "Install extensions",
+        "description": "Install and manage Netlify extensions for enhanced functionality",
+        "prompt": "Install a form handling extension for my Netlify site"
+      },
+      {
+        "name": "Monitor deployments",
+        "description": "Check deployment status and manage site configurations",
+        "prompt": "Show me the status of my latest Netlify deployment"
+      }
+    ],
+    "setup": [
+      {
+        "label": "Create a Personal Access Token",
+        "value": "Create a personal access token for your Netlify account: [https://app.netlify.com/user/applications#personal-access-tokens](https://app.netlify.com/user/applications#personal-access-tokens)",
+        "type": "text"
+      },
+      {
+        "label": "Netlify Personal Access Token",
+        "type": "input",
+        "placeholder": "Enter your Netlify Personal Access Token",
+        "value": "Enter your Netlify Personal Access Token",
+        "key": "NETLIFY_PERSONAL_ACCESS_TOKEN"
+      }
+    ]
+  },
+  {
     "name": "Browser",
     "description": "This is a browser app that allows Claude to navigate to any website, take screenshots, and interact with the page.",
     "icon": {
