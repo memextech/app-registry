@@ -393,8 +393,8 @@
       "runtime": "npx",
       "args": [
         "-y",
-        "@neondatabase/mcp-server-neon",
-        "start"
+        "mcp-remote",
+        "https://mcp.neon.tech/sse"
       ]
     },
     "features": [
@@ -421,16 +421,9 @@
     ],
     "setup": [
       {
-        "label": "Create a Neon API Key",
-        "value": "Generate a Neon API key from your Neon Console: [https://console.neon.tech/app/settings/api-keys](https://console.neon.tech/app/settings/api-keys)",
+        "label": "OAuth Authentication",
+        "value": "This Neon MCP server uses OAuth authentication. When you first use it, an OAuth window will open in your browser where you can authorize your MCP client to access your Neon account. You'll need a Neon account at [https://console.neon.tech/signup](https://console.neon.tech/signup)",
         "type": "text"
-      },
-      {
-        "label": "Neon API Key",
-        "type": "input",
-        "placeholder": "Enter your Neon API key",
-        "value": "Enter your Neon API key",
-        "key": "NEON_API_KEY"
       }
     ]
   },
