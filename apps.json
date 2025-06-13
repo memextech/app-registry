@@ -375,6 +375,63 @@
     ]
   },
   {
+    "name": "Playwright",
+    "description": "This app enables Claude to automate browsers and interact with web pages using Playwright's powerful browser automation capabilities. Navigate, click, type, and test web applications through structured accessibility snapshots.",
+    "icon": {
+      "type": "url",
+      "url": {
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/playwright-light.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/playwright-dark.svg"
+      }
+    },
+    "category": "Development",
+    "price": "Free",
+    "developer": "Microsoft",
+    "sourceUrl": "https://github.com/microsoft/playwright-mcp",
+    "config": {
+      "mcpKey": "playwright",
+      "runtime": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ]
+    },
+    "features": [
+      {
+        "name": "Browser automation",
+        "description": "Navigate, click, type, and interact with web pages using real browser automation",
+        "prompt": "Navigate to example.com and click the 'Sign Up' button"
+      },
+      {
+        "name": "Web testing",
+        "description": "Create automated tests for web applications and verify functionality",
+        "prompt": "Test the login flow on my website and verify it works correctly"
+      },
+      {
+        "name": "Page snapshots",
+        "description": "Capture accessibility snapshots and screenshots of web pages for analysis",
+        "prompt": "Take a snapshot of this webpage and tell me about its structure"
+      },
+      {
+        "name": "Form automation",
+        "description": "Fill out forms, upload files, and handle complex web interactions",
+        "prompt": "Fill out the contact form on this website with my information"
+      }
+    ],
+    "setup": [
+      {
+        "label": "Browser Installation",
+        "value": "Playwright will automatically install browsers when first used. No additional setup required for basic functionality.",
+        "type": "text"
+      },
+      {
+        "label": "Configuration Options",
+        "value": "Advanced users can configure browser settings, proxy, and other options using command-line arguments. See documentation: [https://github.com/microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)",
+        "type": "text"
+      }
+    ]
+  },
+  {
     "name": "Neon",
     "description": "This app enables Claude to interact with your Neon Postgres databases using natural language commands for database management, migrations, and queries.",
     "icon": {
