@@ -1,7 +1,7 @@
 [
   {
     "name": "Github",
-    "description": "This app lets Claude use the GitHub API, enabling file operations, repository management, search functionality, and more.",
+    "description": "This app lets Memex use the GitHub API, enabling file operations, repository management, search functionality, and more.",
     "icon": {
       "type": "url",
       "url": {
@@ -50,7 +50,7 @@
   },
   {
     "name": "Slack",
-    "description": "Allows Claude to interact with Slack",
+    "description": "Allows Memex to interact with Slack",
     "sourceUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
     "icon": {
       "type": "url",
@@ -72,8 +72,8 @@
     },
     "features": [
       {
-        "name": "Ask Claude about your Slack issues",
-        "description": "Ask Claude about your Slack issues",
+        "name": "Ask Memex about your Slack issues",
+        "description": "Ask Memex about your Slack issues",
         "prompt": "What are the most important issues in my customer Slack channels?"
       },
       {
@@ -101,7 +101,7 @@
   },
   {
     "name": "Netlify",
-    "description": "This app enables Claude to create, build, deploy, and manage your Netlify websites using natural language prompts through the Netlify API and CLI.",
+    "description": "This app enables Memex to create, build, deploy, and manage your Netlify websites using natural language prompts through the Netlify API and CLI.",
     "icon": {
       "type": "url",
       "url": {
@@ -160,7 +160,7 @@
   },
   {
     "name": "Playwright",
-    "description": "This app enables Claude to automate browsers and interact with web pages using Playwright's powerful browser automation capabilities. Navigate, click, type, and test web applications through structured accessibility snapshots.",
+    "description": "This app enables Memex to automate browsers and interact with web pages using Playwright's powerful browser automation capabilities. Navigate, click, type, and test web applications through structured accessibility snapshots.",
     "icon": {
       "type": "url",
       "url": {
@@ -217,7 +217,7 @@
   },
   {
     "name": "Neon",
-    "description": "This app enables Claude to interact with your Neon Postgres databases using natural language commands for database management, migrations, and queries.",
+    "description": "This app enables Memex to interact with your Neon Postgres databases using natural language commands for database management, migrations, and queries.",
     "icon": {
       "type": "url",
       "url": {
@@ -270,7 +270,7 @@
   },
   {
     "name": "Hacker News",
-    "description": "Hacker News MCP which allows Claude to get the top stories on Hacker News and summarize discussion threads.",
+    "description": "Hacker News MCP which allows Memex to get the top stories on Hacker News and summarize discussion threads.",
     "sourceUrl": "https://github.com/erithwik/mcp-hn",
     "icon": {
       "type": "url",
