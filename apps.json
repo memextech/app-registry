@@ -269,6 +269,58 @@
     ]
   },
   {
+    "name": "Context7",
+    "description": "This app provides Memex with up-to-date, version-specific documentation and code examples for any library or framework directly in prompts.",
+    "icon": {
+      "type": "url",
+      "url": {
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/context7-light.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/context7-dark.svg"
+      }
+    },
+    "category": "Development",
+    "price": "Free",
+    "developer": "Upstash",
+    "sourceUrl": "https://github.com/upstash/context7",
+    "config": {
+      "mcpKey": "context7",
+      "runtime": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ]
+    },
+    "features": [
+      {
+        "name": "Library documentation lookup",
+        "description": "Resolve and fetch up-to-date documentation for any library using natural language",
+        "prompt": "Get documentation for React hooks and show me how to use useState"
+      },
+      {
+        "name": "Version-specific code examples",
+        "description": "Retrieve accurate, current code examples for specific library versions",
+        "prompt": "Show me how to create a Next.js API route with app router and TypeScript"
+      },
+      {
+        "name": "Framework integration guides",
+        "description": "Access latest setup and integration documentation for popular frameworks",
+        "prompt": "Help me set up authentication in my FastAPI application"
+      },
+      {
+        "name": "API reference access",
+        "description": "Get detailed API references and method documentation in real-time",
+        "prompt": "Show me the latest MongoDB aggregation pipeline methods and examples"
+      }
+    ],
+    "setup": [
+      {
+        "label": "No setup required",
+        "value": "Context7 works out of the box without any API keys or authentication. Simply add 'use context7' to your prompts to get up-to-date documentation for any library or framework.",
+        "type": "text"
+      }
+    ]
+  },
+  {
     "name": "Hacker News",
     "description": "Hacker News MCP which allows Memex to get the top stories on Hacker News and summarize discussion threads.",
     "sourceUrl": "https://github.com/erithwik/mcp-hn",
