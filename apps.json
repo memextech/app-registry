@@ -87,14 +87,14 @@
         "label": "Slack Bot Token",
         "type": "input",
         "placeholder": "Enter your Slack bot token",
-        "value": "Enter your Slack bot token",
+        "value": "Enter your Bot User OAuth Token (starts with `xoxb-`). Follow the [setup instructions](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack#setup) to create your Slack App and get this token.",
         "key": "SLACK_BOT_TOKEN"
       },
       {
         "label": "Slack Team ID",
         "type": "input",
         "placeholder": "Enter your Slack team ID",
-        "value": "Enter your Slack team ID",
+        "value": "Each workspace in Slack has a unique Team ID. Follow these [instructions](https://slack.com/intl/en-gb/help/articles/221769328-Locate-your-Slack-URL-or-ID#find-your-workspace-or-org-id) to locate it.",
         "key": "SLACK_TEAM_ID"
       }
     ]
