@@ -16,10 +16,7 @@
     "config": {
       "mcpKey": "github",
       "runtime": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-github"
-      ]
+      "args": ["-y", "@modelcontextprotocol/server-github"]
     },
     "features": [
       {
@@ -65,10 +62,7 @@
     "config": {
       "mcpKey": "slack",
       "runtime": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-slack"
-      ]
+      "args": ["-y", "@modelcontextprotocol/server-slack"]
     },
     "features": [
       {
@@ -116,10 +110,7 @@
     "config": {
       "mcpKey": "netlify",
       "runtime": "npx",
-      "args": [
-        "-y",
-        "@netlify/mcp"
-      ]
+      "args": ["-y", "@netlify/mcp"]
     },
     "features": [
       {
@@ -175,10 +166,7 @@
     "config": {
       "mcpKey": "playwright",
       "runtime": "npx",
-      "args": [
-        "-y",
-        "@playwright/mcp@latest"
-      ]
+      "args": ["-y", "@playwright/mcp@latest"]
     },
     "features": [
       {
@@ -232,11 +220,7 @@
     "config": {
       "mcpKey": "neon",
       "runtime": "npx",
-      "args": [
-        "-y",
-        "mcp-remote",
-        "https://mcp.neon.tech/sse"
-      ]
+      "args": ["-y", "mcp-remote", "https://mcp.neon.tech/sse"]
     },
     "features": [
       {
@@ -285,10 +269,7 @@
     "config": {
       "mcpKey": "context7",
       "runtime": "npx",
-      "args": [
-        "-y",
-        "@upstash/context7-mcp"
-      ]
+      "args": ["-y", "@upstash/context7-mcp"]
     },
     "features": [
       {
@@ -337,9 +318,7 @@
     "config": {
       "mcpKey": "hn",
       "runtime": "uvx",
-      "args": [
-        "mcp-hn"
-      ]
+      "args": ["mcp-hn"]
     },
     "features": [
       {
@@ -354,6 +333,69 @@
       }
     ],
     "setup": []
+  },
+  {
+    "name": "Task Master",
+    "description": "This MCP server enables Memex to help you manage AI-driven development tasks with intelligent task creation, project structure management, and seamless integration with development workflows.",
+    "icon": {
+      "type": "url",
+      "url": {
+        "light": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/github-light.svg",
+        "dark": "https://raw.githubusercontent.com/memextech/app-registry/refs/heads/main/assets/github-dark.svg"
+      }
+    },
+    "category": "Development",
+    "price": "Free",
+    "developer": "Eyal Toledano",
+    "sourceUrl": "https://github.com/eyaltoledano/claude-task-master",
+    "config": {
+      "mcpKey": "claude-task-master",
+      "runtime": "npx",
+      "args": ["-y", "task-master-ai"]
+    },
+    "features": [
+      {
+        "name": "Initialize project structure",
+        "description": "Set up task management system in your project with proper directory structure",
+        "prompt": "Initialize task master in my project"
+      },
+      {
+        "name": "Parse requirements documents",
+        "description": "Convert PRDs and requirements into actionable development tasks",
+        "prompt": "Parse my PRD and create development tasks"
+      },
+      {
+        "name": "Smart task management",
+        "description": "View, create, and manage development tasks with priority and dependency tracking",
+        "prompt": "Show me my next task to work on"
+      },
+      {
+        "name": "Research and context gathering",
+        "description": "Gather project context and research information for better task execution",
+        "prompt": "Research best practices for implementing JWT authentication"
+      }
+    ],
+    "setup": [
+      {
+        "label": "Setup Instructions",
+        "value": "At least one AI provider API key is required. You can use Anthropic, OpenAI, Google, Perplexity, xAI, OpenRouter, Mistral, Azure OpenAI, or Ollama. See the [Claude Task Master repository](https://github.com/eyaltoledano/claude-task-master) for more details on configuration and usage.",
+        "type": "text"
+      },
+      {
+        "label": "Anthropic API Key (Required)",
+        "type": "input",
+        "placeholder": "Enter your Anthropic API key",
+        "value": "Enter your Anthropic API key for Claude models",
+        "key": "ANTHROPIC_API_KEY"
+      },
+      {
+        "label": "Perplexity API Key (Optional)",
+        "type": "input",
+        "placeholder": "Enter your Perplexity API key",
+        "value": "Enter your Perplexity API key for enhanced research capabilities",
+        "key": "PERPLEXITY_API_KEY"
+      }
+    ]
   },
   {
     "name": "ht-mcp",
